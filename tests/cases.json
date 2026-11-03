@@ -1,0 +1,3205 @@
+[
+  {
+    "id": 1,
+    "day": 1,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 4",
+        "output": "Sum = 7"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "-1 20",
+        "output": "Sum = 19"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0 0",
+        "output": "Sum = 0"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "day": 1,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "10 2",
+        "output": "Sum=12, Diff=8, Product=20, Quotient=5"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7 3",
+        "output": "Sum=10, Diff=4, Product=21, Quotient=2"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "3 0",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "day": 2,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5 10",
+        "output": "Area=50, Perimeter=30"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3 7",
+        "output": "Area=21, Perimeter=20"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0 5",
+        "output": "Area=0, Perimeter=10"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "day": 2,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "7",
+        "output": "Area=153.94, Circumference=43.96"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3",
+        "output": "Area=28.27, Circumference=18.85"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "Area=0.00, Circumference=0.00"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "day": 3,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "0",
+        "output": "Fahrenheit=32"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "100",
+        "output": "Fahrenheit=212"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-40",
+        "output": "Fahrenheit=-40"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "day": 3,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 5",
+        "output": "After swap: 5 3"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "-1 1",
+        "output": "After swap: 1 -1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "4 4",
+        "output": "After swap: 4 4"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "day": 4,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "10 20",
+        "output": "After swap: 20 10"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7 14",
+        "output": "After swap: 14 7"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-7 4",
+        "output": "After swap: 4 -7"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "day": 4,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5",
+        "output": "Sum=15"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "10",
+        "output": "Sum=55"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "Sum=0"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "day": 5,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1000 5 2",
+        "output": "Simple Interest=100, Compound Interest=102.5"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5000 7 3",
+        "output": "Simple Interest=1050, Compound Interest=1125.76"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "5000 7 3",
+        "output": "Simple Interest=1050, Compound Interest=1125.22"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "day": 5,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3661",
+        "output": "1:1:1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7322",
+        "output": "2:2:2"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "0:0:0"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "day": 6,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "7",
+        "output": "7 is odd"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "12",
+        "output": "12 is even"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-3",
+        "output": "-3 is odd"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "day": 6,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "-5",
+        "output": "Negative"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "0",
+        "output": "Zero"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "10",
+        "output": "Positive"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": "Positive"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "day": 7,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2020",
+        "output": "Leap year"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "1900",
+        "output": "Not a leap year"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "2000",
+        "output": "Leap year"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "2100",
+        "output": "Not a leap year"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "day": 7,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "a",
+        "output": "Vowel"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "b",
+        "output": "Consonant"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "E",
+        "output": "Vowel"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "day": 8,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "A",
+        "output": "Uppercase alphabet"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "a",
+        "output": "Lowercase alphabet"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "3",
+        "output": "Digit"
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "#",
+        "output": "Special character"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "!",
+        "output": "Special character"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "day": 8,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 7 5",
+        "output": "Largest is 7"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "-1 -5 0",
+        "output": "Largest is 0"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-7 -1 -1",
+        "output": "Largest is -1"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "day": 9,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1 -3 2",
+        "output": "Roots are real and different: 2, 1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "1 -2 1",
+        "output": "Roots are real and same: 1"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "1 2 5",
+        "output": "Roots are complex"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0 1 2",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "day": 9,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "95",
+        "output": "Grade A"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "82",
+        "output": "Grade B"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "68",
+        "output": "Grade D"
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "50",
+        "output": "Grade F"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "90",
+        "output": "Grade A"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "day": 10,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 3 3",
+        "output": "Equilateral"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3 3 4",
+        "output": "Isosceles"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "2 3 4",
+        "output": "Scalene"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2 3",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "day": 10,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1",
+        "output": "Monday"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5",
+        "output": "Friday"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "8",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "day": 11,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2",
+        "output": "February, 28 days"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "12",
+        "output": "December, 31 days"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "4",
+        "output": "April, 30 days"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "day": 11,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1000 1200",
+        "output": "Profit 20%"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "1000 800",
+        "output": "Loss 20%"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "1000 1000",
+        "output": "No Profit No Loss"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0 5",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "day": 12,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4",
+        "output": "Fine ₹8"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "8",
+        "output": "Fine ₹22"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "15",
+        "output": "Fine ₹60"
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "31",
+        "output": "Membership Cancelled"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "30",
+        "output": "Fine ₹150"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "day": 12,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "50",
+        "output": "Bill: ₹250"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "150",
+        "output": "Bill: ₹850"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "250",
+        "output": "Bill: ₹1700"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "301",
+        "output": "Bill: ₹2212"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "day": 13,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4 2 +",
+        "output": "6"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "10 3 %",
+        "output": "1"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "15 5 /",
+        "output": "3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "2 0 /",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "day": 13,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5",
+        "output": "1 2 3 4 5"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3",
+        "output": "1 2 3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "day": 14,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3",
+        "output": "9"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5",
+        "output": "25"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "day": 14,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4",
+        "output": "8 (2 * 4)"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "6",
+        "output": "48 (2 * 4 * 6)"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "1"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "day": 15,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5",
+        "output": "120"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3",
+        "output": "6"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "1"
+      },
+      {
+        "kind": "edge",
+        "number": 2,
+        "input": "21",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "day": 15,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1234",
+        "output": "4321"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "100",
+        "output": "1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-120",
+        "output": "-21"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "day": 16,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "10",
+        "output": "1010"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7",
+        "output": "111"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "day": 16,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "121",
+        "output": "Palindrome"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "123",
+        "output": "Not palindrome"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-121",
+        "output": "Not palindrome"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "day": 17,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "153",
+        "output": "Armstrong"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "123",
+        "output": "Not Armstrong"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "9474",
+        "output": "Armstrong"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "day": 17,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "7",
+        "output": "Prime"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "10",
+        "output": "Not prime"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": "Not prime"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "day": 18,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "6",
+        "output": "1 2 3 6"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "10",
+        "output": "1 2 5 10"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "16",
+        "output": "1 2 4 8 16"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "day": 18,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "12 18",
+        "output": "6"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7 9",
+        "output": "1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-12 0",
+        "output": "12"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "day": 19,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4 5",
+        "output": "20"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "7 3",
+        "output": "21"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0 0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "day": 19,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "123",
+        "output": "6"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "999",
+        "output": "27"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-101",
+        "output": "2"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "day": 20,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "12345",
+        "output": "15 (1*3*5)"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "2468",
+        "output": "1 (no odd digits, assume 1)"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "1 (no odd digits, assume 1)"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "day": 20,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1010",
+        "output": "0101"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "1111",
+        "output": "0000"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "1"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "day": 21,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "1234",
+        "output": "4231"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "1001",
+        "output": "1001"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "-120",
+        "output": "-21"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "day": 21,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "6",
+        "output": "Perfect number"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "10",
+        "output": "Not perfect number"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": "Not perfect number"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "day": 22,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "145",
+        "output": "Strong number"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "123",
+        "output": "Not strong number"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "Not strong number"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "day": 22,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3",
+        "output": "Approximate sum: 3.3"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5",
+        "output": "Approximate sum: 4.4"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": "Approximate sum: 1.0"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "day": 23,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3",
+        "output": "Approximate sum: 1.56"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5",
+        "output": "Approximate sum: 2.22"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": "Approximate sum: 0.67"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "day": 23,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "*****\n*****\n*****\n*****\n*****"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "day": 24,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "*\n**\n***\n****\n*****"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "day": 24,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "1\n12\n123\n1234\n12345"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "day": 25,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "5\n45\n345\n2345\n12345"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "day": 25,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "*****\n ****\n  ***\n   **\n    *"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "",
+        "output": "Note: Spaces indicate indentation."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "*****\n ****\n  ***\n   **\n    *"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "day": 26,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "    5\n   45\n  345\n 2345\n12345"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "day": 26,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "Pattern with stars spaced irregularly as shown."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "\n*\n\n*\n*\n*\n\n*\n*\n*\n*\n*\n\n*\n*\n*\n\n*"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "day": 27,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "*\n***\n*****\n*******\n*********\n*******\n*****\n***\n*"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "day": 27,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "",
+        "output": "Pattern with layers of stars as shown."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "day": 28,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "10",
+        "output": "2 3 5 7"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "20",
+        "output": "2 3 5 7 11 13 17 19"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "day": 28,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3\n10 20 30",
+        "output": "10 20 30"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5\n1 2 3 4 5",
+        "output": "1 2 3 4 5"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "day": 29,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4\n2 4 6 8",
+        "output": "20"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3\n1 1 1",
+        "output": "3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "day": 29,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n2 9 1 4 7",
+        "output": "Max=9, Min=1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3\n10 10 10",
+        "output": "Max=10, Min=10"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "day": 30,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "6\n1 2 3 4 5 6",
+        "output": "Even=3, Odd=3"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "4\n2 4 6 8",
+        "output": "Even=4, Odd=0"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "3\n-3 -2 0",
+        "output": "Even=2, Odd=1"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "day": 30,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n-1 0 1 2 -2",
+        "output": "Positive=2, Negative=2, Zero=1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "Positive=0, Negative=0, Zero=0"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "day": 31,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n1 2 3 4 5\n3",
+        "output": "Found at index 2"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "4\n10 20 30 40\n25",
+        "output": "-1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0\n42",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "day": 31,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4\n1 2 3 4",
+        "output": "4 3 2 1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1\n7",
+        "output": "7"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "day": 32,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3\n1 2 3\n2\n4 5",
+        "output": "1 2 3 4 5"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0\n2\n-1 9",
+        "output": "-1 9"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "day": 32,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "112233",
+        "output": "1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "887799",
+        "output": "7"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "day": 33,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n1 3 5 7 9\n7",
+        "output": "Found at index 3"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "5\n1 3 5 7 9\n6",
+        "output": "-1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0\n9",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "day": 33,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n1 2 4 5 6\n3",
+        "output": "1 2 3 4 5 6"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "0\n7",
+        "output": "7"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "day": 34,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "4\n10 20 30 40\n2 15",
+        "output": "10 20 15 30 40"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1\n5\n2 9",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "day": 34,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n1 2 3 4 5\n2",
+        "output": "1 2 4 5"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1\n7\n0",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "day": 35,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n10 20 30 40 50",
+        "output": "40"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "4\n5 5 3 3",
+        "output": "3"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "day": 35,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "5\n1 2 3 4 5\n2",
+        "output": "4 5 1 2 3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "3\n1 2 3\n4",
+        "output": "3 1 2"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "day": 36,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 2\n1 2\n3 4",
+        "output": "1 2\n3 4"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 1\n0",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "day": 36,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "21"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2\n-8 3",
+        "output": "-5"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "day": 37,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "6 15"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "2 1\n-2\n2",
+        "output": "-2 2"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "day": 37,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "1 4\n2 5\n3 6"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2\n8 9",
+        "output": "8\n9"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "day": 38,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 2\n1 2\n3 4\n2 2\n5 6\n7 8",
+        "output": "6 8\n10 12"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2\n1 2\n2 1\n3 4",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "day": 38,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 2\n1 2\n2 1",
+        "output": "True"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "2 2\n1 0\n2 1",
+        "output": "False"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2\n4 4",
+        "output": "False"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "day": 39,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 1",
+        "output": "False"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "True"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 1\n9",
+        "output": "True"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "day": 39,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "15"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 1\n-9",
+        "output": "-9"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "day": 40,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+        "output": "1 2 4 7 5 3 6 8 9"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "1 2 4 5 3 6"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "day": 40,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "2 3\n1 2 3\n4 5 6\n3 2\n7 8\n9 10\n11 12",
+        "output": "58 64\n139 154"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "1 2\n2 3\n2 1\n4 5",
+        "output": "23"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "day": 41,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Hello",
+        "output": "5"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": " ",
+        "output": "1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "\n",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "day": 41,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Hi",
+        "output": "H\ni"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "\n",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "day": 42,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "hello",
+        "output": "Vowels=2, Consonants=3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "AE!3 z",
+        "output": "Vowels=2, Consonants=1"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "day": 42,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "hello",
+        "output": "HELLO"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "a Z,9",
+        "output": "A Z,9"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "day": 43,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "abcd",
+        "output": "dcba"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "a b",
+        "output": "b a"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "day": 43,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "madam",
+        "output": "Palindrome"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "hello",
+        "output": "Not palindrome"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "\n",
+        "output": "Palindrome"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "day": 44,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "a b1&2",
+        "output": "Spaces=1, Digits=2, Special=1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "!! 0",
+        "output": "Spaces=1, Digits=1, Special=2"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "day": 44,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "hello world",
+        "output": "hello-world"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": " a ",
+        "output": "-a-"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "day": 45,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "programming\ng",
+        "output": "2"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "a b \n ",
+        "output": "2"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "day": 45,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Hello",
+        "output": "hELLO"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "aZ-9",
+        "output": "Az-9"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "day": 46,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "education",
+        "output": "dctn"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "AEIOU",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "day": 46,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "stress",
+        "output": "s"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "abc",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "day": 47,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "listen\nsilent",
+        "output": "Anagrams"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "hello\nworld",
+        "output": "Not anagrams"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "aab\nabb",
+        "output": "Not anagrams"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "day": 47,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "I love programming",
+        "output": "programming"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "  red  tan",
+        "output": "red"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "day": 48,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "abcde\ndeabc",
+        "output": "Rotation"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "abc\nacb",
+        "output": "Not rotation"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "\n\n",
+        "output": "Rotation"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "day": 48,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "I love coding",
+        "output": "I evol gnidoc"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "  one  two! ",
+        "output": "  eno  !owt "
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "day": 49,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "John Doe",
+        "output": "J.D."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "  jane alice  doe ",
+        "output": "J.A.D."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "day": 49,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "John David Doe",
+        "output": "J.D. Doe"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "Ada",
+        "output": "Ada"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "day": 50,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "15/04/2025",
+        "output": "15-Apr-2025"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "31/04/2020",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "day": 50,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "abc",
+        "output": "a,ab,abc,b,bc,c"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "\n",
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "day": 51,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums = [5,7,7,8,8,10], target = 8",
+        "output": "3,4"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": " nums = [5,7,7,8,8,10], target = 6",
+        "output": "-1,-1"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": " nums = [5,7,7,8,8,10], target = 10",
+        "output": "5,5"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums = [], target = 1",
+        "output": "-1,-1"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "day": 52,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr = [1, 2, 8, 10, 11, 12, 19], x = 5",
+        "output": "2",
+        "explanation": "Smallest number greater than 5 is 8, whose index is 2."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr = [1, 2, 8, 10, 11, 12, 19], x = 20",
+        "output": "-1",
+        "explanation": "No element greater than 20 is found. So output is -1."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr = [1, 1, 2, 8, 10, 11, 12, 19], x = 0",
+        "output": "0",
+        "explanation": "Smallest number greater than 0 is 1, whose indices are 0 and 1. The index of the first occurrence is 0."
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "arr = [1, 1, 2, 8, 10, 11, 12, 19], x = 2",
+        "output": "2",
+        "explanation": "If x is directly present, return the index of its first occurrence. "
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr = [], x = 3",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "day": 53,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums = [1,7,3,6,5,6]",
+        "output": "3",
+        "explanation": "The pivot index is 3. Left sum = 1 + 7 + 3 = 11, Right sum = 5 + 6 = 11."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums = [1,2,3]",
+        "output": "-1",
+        "explanation": "There is no index that satisfies the conditions in the problem statement."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums = [2,1,-1]",
+        "output": "0",
+        "explanation": "The pivot index is 0. Left sum = 0 (no elements to the left), Right sum = 1 + (-1) = 0."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums = [7]",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "day": 54,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "n = 8",
+        "output": "6",
+        "explanation": "6 is the pivot integer since: 1 + 2 + 3 + 4 + 5 + 6 = 6 + 7 + 8 = 21."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "n = 1",
+        "output": "1",
+        "explanation": "1 is the pivot integer since: 1 = 1."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "n = 4",
+        "output": "-1",
+        "explanation": "It can be proved that no such integer exists."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "n = 0",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "day": 55,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums = [3,2,3]",
+        "output": "3",
+        "explanation": "Size = 3, Count of 3 = 2 → 2 > 3/2. Thus, 3 is the majority element."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums = [2,2,1,1,1,2,2]",
+        "output": "2",
+        "explanation": "Size = 7, Count of 2 = 4 → 4 > 7/2. Thus, 2 is the majority element."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums = [2,2,1,1,1,2,2,3]",
+        "output": "-1",
+        "explanation": "Size = 8, Count of 2 = 4 → 4 is not strictly greater than 8/2. Hence, no majority element exists."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums = [1,2]",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "day": 56,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr = [1, 3, 2, 4]",
+        "output": "3, 4, 4, -1",
+        "explanation": "The next larger element to 1 is 3, for 3 it is 4, for 2 it is 4 and for 4 there is no next greater element so it is -1."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr = [6, 8, 0, 1, 3]",
+        "output": "8, -1, 1, 3, -1",
+        "explanation": "Next greater element for 6 is 8, for 8 it is -1, for 0 it is 1, for 1 it is 3 and for 3 there is no greater element on right hence -1."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr = [1, 2, 3, 5]",
+        "output": "2, 3, 5, -1",
+        "explanation": "In a sorted array, each element’s next greater is its immediate next element except for the last element which has none, so -1."
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "arr = [5, 4, 3, 1]",
+        "output": "-1, -1, -1, -1",
+        "explanation": "No element has a greater element on its right, so all next greater elements are -1."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr = [2,2,3]",
+        "output": "3, 3, -1"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "day": 57,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr = [1, 3, 2, 4]",
+        "output": "-1, -1, 3, -1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr = [6, 8, 0, 1, 3]",
+        "output": "-1, -1, 8, 8, 8"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr = [1, 2, 3, 5]",
+        "output": "-1, -1, -1, -1"
+      },
+      {
+        "kind": "sample",
+        "number": 4,
+        "input": "arr = [5, 4, 3, 1]",
+        "output": "-1, 5, 4, 3"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr = [3,2,2]",
+        "output": "-1, 3, 3"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "day": 58,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums = [1,2,3,4]",
+        "output": "[24,12,8,6]"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums = [-1,1,0,-3,3]",
+        "output": "[0,0,9,0,0]"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums = [0,2,0]",
+        "output": "[0,0,0]"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "day": 59,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr[100, 200, 300, 400] = , k = 2",
+        "output": "700",
+        "explanation": "arr2 + arr3 = 700, which is maximum."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr[1, 4, 2, 10, 23, 3, 1, 0, 20] = , k = 4",
+        "output": "39",
+        "explanation": "arr1 + arr2 + arr3 + arr4 = 39, which is maximum."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr[100, 200, 300, 400] = , k = 1",
+        "output": "400",
+        "explanation": "arr3 = 400, which is maximum."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr[-4,-2,-5] = , k = 2",
+        "output": "-6"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "day": 60,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr[1, 2, 3, 1, 4, 5, 2, 3, 6] = , k = 3",
+        "output": "3 3 4 5 5 5 6",
+        "explanation": "1st contiguous subarray , max = 3; 2nd contiguous subarray , max = 3; 3rd contiguous subarray , max = 4; 4th contiguous subarray , max = 5; 5th contiguous subarray , max = 5; 6th contiguous subarray , max = 5; 7th contiguous subarray , max = 6."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr[5, 1, 3, 4, 2] = , k = 1",
+        "output": "5 1 3 4 2",
+        "explanation": "When k = 1, each element in the array is its own subarray, so the output is simply the same array."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr[1] = , k = 0",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "day": 61,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr[] = [-8, 2, 3, -6, 10], k = 2",
+        "output": "-8 0 -6 -6",
+        "explanation": "Window [-8, 2] First negative integer is -8. Window No negative integers, output is 0. Window [3, -6] First negative integer is -6. Window [-6, 10] First negative integer is -6."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr[] = [12, -1, -7, 8, -15, 30, 16, 28], k = 3",
+        "output": "-1 -1 -7 -15 -15 0",
+        "explanation": "Window [12, -1, -7] First negative integer is -1. Window [-1, -7, 8] First negative integer is -1. Window [-7, 8, -15] First negative integer is -7. Window [8, -15, 30] First negative integer is -15. Window [-15, 30, 16] First negative integer is -15. Window No negative integers, output is 0."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr[] = [12, 1, 3, 5], k = 3",
+        "output": "0 0",
+        "explanation": "Window No negative integers, output is 0. Window No negative integers, output is 0."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr[] = [0,-3,2], k = 1",
+        "output": "0 -3 0"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "day": 62,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr[] = [2, 3, -8, 7, -1, 2, 3]",
+        "output": "11",
+        "explanation": "The subarray [7, -1, 2, 3] has the largest sum 11."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr[] = [-2, -4]",
+        "output": "-2",
+        "explanation": "The subarray [-2] has the largest sum -2."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "arr[] = [5, 4, 1, 7, 8]",
+        "output": "25",
+        "explanation": "The subarray has the largest sum 25."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr[] = [-7]",
+        "output": "-7"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "day": 63,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "arr[] = [10, 5, 4, 3, 48, 6, 2, 33, 53, 10], k = 4",
+        "output": "5",
+        "explanation": "4th smallest element in the given array is 5."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "arr[] = [7, 10, 4, 3, 20, 15], k = 3",
+        "output": "7",
+        "explanation": "3rd smallest element in the given array is 7."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "arr[] = [4,4,7], k = 2",
+        "output": "4"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "day": 64,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "s = \"abcabcbb\"",
+        "output": "3",
+        "explanation": "The answer is \"abc\", with the length of 3. Note that \"bca\" and \"cab\" are also correct answers."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "s = \"bbbbb\"",
+        "output": "1",
+        "explanation": "The answer is \"b\", with the length of 1."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "s = \"pwwkew\"",
+        "output": "3",
+        "explanation": "The answer is \"wke\", with the length of 3. Notice that the answer must be a substring, \"pwke\" is a subsequence and not a substring."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "s = \"\"",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "day": 65,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "s = \"anagram\", t = \"nagaram\"",
+        "output": "Anagram",
+        "explanation": "The strings contain the same characters with the same frequencies."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "s = \"rat\", t = \"car\"",
+        "output": "Not Anagram",
+        "explanation": "The strings do not contain the same characters."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "s = \"\", t = \"\"",
+        "output": "Anagram"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "day": 66,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums = [2,7,11,15], target = 9",
+        "output": "0 1",
+        "explanation": "Because nums[0] + nums[1] == 9, we return [0, 1]."
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums = [3,2,4], target = 6",
+        "output": "1 2"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums = [3,3], target = 6",
+        "output": "0 1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums = [2,3], target = 4",
+        "output": "-1 -1"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "day": 67,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums1 = [2,7,11,15] nums2 = [4,8,10]",
+        "output": "2 4 7 8 10 11 15"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums1 = [1,2,7] nums2 = [9,10,17]",
+        "output": "1 2 7 9 10 17"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums1 = [-10,-2,7] nums2 = [-3, -1, 7]",
+        "output": "-10 -3 -2 -1 7 7"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums1 = [] nums2 = [2]",
+        "output": "2"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "day": 68,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums1 = [0,3,2,4]",
+        "output": "1"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums1 = [1,2,3]",
+        "output": "0"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums1 = [0,4,3,1,5]",
+        "output": "2"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums1 = []",
+        "output": "0"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "day": 69,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "nums1 = [1,3,3,4]",
+        "output": "3"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "nums1 = [1,2,2]",
+        "output": "2"
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "nums1 = [0,4,1,1,5]",
+        "output": "1"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "nums1 = [-1,2,-1]",
+        "output": "-1"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "day": 70,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "str = I am trying to build logic.",
+        "output": "I Am Trying To Build Logic"
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "str = The classes are supposed to start early.",
+        "output": "The Classes Are Supposed To Start Early."
+      },
+      {
+        "kind": "sample",
+        "number": 3,
+        "input": "str = We are going to look at 26 different test cases.",
+        "output": "We Are Going To Look At 26 Different Test Cases."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "str = one two.",
+        "output": "One Two."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "day": 71,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Name: Rahul, Age: 23",
+        "output": "File created successfully! Data written to info.txt",
+        "explanation": "Expected File Content (info.txt): Name: Rahul Age: 23",
+        "after": {
+          "info.txt": "Name: Rahul\nAge: 23\n"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "Mary Jane\n0",
+        "output": "File created successfully! Data written to info.txt",
+        "after": {
+          "info.txt": "Name: Mary Jane\nAge: 0\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "day": 72,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "File: info.txt (Content: Name: Rahul\\nAge: 23)",
+        "output": "Name: Rahul\nAge: 23",
+        "explanation": "The program reads each line from info.txt using fgets() and prints it until EOF.",
+        "stdin": "",
+        "files": {
+          "info.txt": "Name: Rahul\nAge: 23"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "",
+        "files": {
+          "info.txt": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "day": 73,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "File: sample.txt (Content: Hello world\\nThis is C programming)",
+        "output": "Characters: 31\nWords: 5\nLines: 2",
+        "explanation": "The file has 31 characters including spaces and newlines, 5 words, and 2 lines.",
+        "stdin": "sample.txt",
+        "files": {
+          "sample.txt": "Hello world\nThis is C programming"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "sample.txt",
+        "output": "Characters: 33\nWords: 6\nLines: 2",
+        "files": {
+          "sample.txt": "Hello world\nThis is C programming"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 2,
+        "input": "empty.txt",
+        "output": "Characters: 0\nWords: 0\nLines: 0",
+        "files": {
+          "empty.txt": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "day": 74,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Source File: source.txt (Content: Learning C File Handling)",
+        "output": "File copied successfully to destination.txt",
+        "explanation": "Expected File (destination.txt): Learning C File Handling",
+        "stdin": "source.txt\ndestination.txt",
+        "files": {
+          "source.txt": "Learning C File Handling"
+        },
+        "after": {
+          "destination.txt": "Learning C File Handling"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "a.txt\na.txt",
+        "output": "File copied successfully to a.txt",
+        "files": {
+          "a.txt": "same file\n"
+        },
+        "after": {
+          "a.txt": "same file\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "day": 75,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Existing File: data.txt (Content before execution: Hello world)\nUser Input: This is appended text.",
+        "output": "File updated successfully with appended text.",
+        "explanation": "Output File (data.txt after execution): Hello world\\nThis is appended text.",
+        "stdin": "data.txt\nThis is appended text.",
+        "files": {
+          "data.txt": "Hello world"
+        },
+        "after": {
+          "data.txt": "Hello world\nThis is appended text.\n"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "data.txt\nnew",
+        "output": "File updated successfully with appended text.",
+        "files": {
+          "data.txt": "old\n"
+        },
+        "after": {
+          "data.txt": "old\nnew\n"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 2,
+        "input": "data.txt\nnew",
+        "output": "File updated successfully with appended text.",
+        "files": {
+          "data.txt": ""
+        },
+        "after": {
+          "data.txt": "new\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "day": 76,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Filename: sample.txt (File Exists: Yes)",
+        "output": "File opened successfully.\n(Displays file content)",
+        "explanation": "The program opens the existing file and prints its content using fgets().",
+        "stdin": "sample.txt",
+        "files": {
+          "sample.txt": "Example file content."
+        }
+      },
+      {
+        "kind": "sample",
+        "number": 2,
+        "input": "Filename: nofile.txt (File Exists: No)",
+        "output": "Error: File does not exist!",
+        "explanation": "Since fopen() returns NULL, an error message is displayed instead of reading.",
+        "stdin": "nofile.txt",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "sample.txt",
+        "output": "File opened successfully.\nExample file content.",
+        "files": {
+          "sample.txt": "Example file content."
+        }
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "day": 77,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Input File (input.txt): Hello World\\nC programming",
+        "output": "Output File (output.txt): HELLO WORLD\\nC PROGRAMMING",
+        "explanation": "All lowercase letters in input.txt are converted to uppercase using character manipulation before writing to output.txt.",
+        "stdin": "",
+        "files": {
+          "input.txt": "Hello World\nC programming"
+        },
+        "observe": "output.txt",
+        "expected_content": "HELLO WORLD\nC PROGRAMMING"
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "",
+        "files": {
+          "input.txt": "a!9\n"
+        },
+        "after": {
+          "output.txt": "A!9\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "day": 78,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "File: text.txt (Content: Welcome to C language)",
+        "output": "Vowels: 8\nConsonants: 10",
+        "explanation": "The program iterates through each character, counts vowels (A, E, I, O, U) and consonants, ignoring other symbols.",
+        "stdin": "text.txt",
+        "files": {
+          "text.txt": "Welcome to C language"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "a.txt",
+        "output": "Vowels: 2\nConsonants: 0",
+        "files": {
+          "a.txt": "aE9! "
+        }
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "day": 79,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "File: numbers.txt (Content: 10 20 30 40 50)",
+        "output": "Sum = 150\nAverage = 30.00",
+        "explanation": "The program reads integers from the file, computes their total sum (150), and calculates the average (30.00).",
+        "stdin": "",
+        "files": {
+          "numbers.txt": "10 20 30 40 50"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "",
+        "output": "",
+        "files": {
+          "numbers.txt": ""
+        },
+        "exit": 1
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "day": 80,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "Student 1 → Name: Asha, Roll: 101, Marks: 85; Student 2 → Name: Ravi, Roll: 102, Marks: 92",
+        "output": "Name: Asha | Roll: 101 | Marks: 85\nName: Ravi | Roll: 102 | Marks: 92",
+        "explanation": "Expected File Content (students.txt): Asha 101 85\\nRavi 102 92",
+        "after": {
+          "students.txt": "Asha 101 85\nRavi 102 92\n"
+        }
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "2\nAlice 1 19.5\nBob 2 0",
+        "output": "Name: Alice | Roll: 1 | Marks: 19.5\nName: Bob | Roll: 2 | Marks: 0",
+        "after": {
+          "students.txt": "Alice 1 19.5\nBob 2 0\n"
+        }
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "day": 81,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "No input",
+        "output": "SUNDAY = 0\nMONDAY = 1\nTUESDAY = 2\nWEDNESDAY = 3\nTHURSDAY = 4\nFRIDAY = 5\nSATURDAY = 6",
+        "explanation": "Each day in the enum is automatically assigned an integer starting from 0.",
+        "stdin": ""
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "day": 82,
+    "cases": [
+      {
+        "kind": "sample",
+        "number": 1,
+        "input": "GREEN",
+        "output": "Go",
+        "explanation": "When the enum value is GREEN, the program prints 'Go'."
+      },
+      {
+        "kind": "edge",
+        "number": 1,
+        "input": "RED",
+        "output": "Stop"
+      },
+      {
+        "kind": "edge",
+        "number": 2,
+        "input": "YELLOW",
+        "output": "Wait"
+      },
+      {
+        "kind": "edge",
+        "number": 3,
+        "input": "BLUE",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  }
+]
