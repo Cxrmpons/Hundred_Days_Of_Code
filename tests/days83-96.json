@@ -1,0 +1,101 @@
+[
+  {
+    "day": 83,
+    "number": 133,
+    "statement": "Create an enum for months and print how many days each month has.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "FEB",
+        "output": "28 or 29 days",
+        "explanation": "February has 28 days in a normal year and 29 in a leap year."
+      },
+      {
+        "kind": "edge",
+        "name": "January",
+        "input": "January",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "February",
+        "input": "February",
+        "output": "28 or 29 days"
+      },
+      {
+        "kind": "edge",
+        "name": "March",
+        "input": "March",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "April",
+        "input": "April",
+        "output": "30 days"
+      },
+      {
+        "kind": "edge",
+        "name": "May",
+        "input": "May",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "June",
+        "input": "June",
+        "output": "30 days"
+      },
+      {
+        "kind": "edge",
+        "name": "July",
+        "input": "July",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "August",
+        "input": "August",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "September",
+        "input": "September",
+        "output": "30 days"
+      },
+      {
+        "kind": "edge",
+        "name": "October",
+        "input": "October",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "November",
+        "input": "November",
+        "output": "30 days"
+      },
+      {
+        "kind": "edge",
+        "name": "December",
+        "input": "December",
+        "output": "31 days"
+      },
+      {
+        "kind": "edge",
+        "name": "Lowercase abbreviation",
+        "input": "sep",
+        "output": "30 days"
+      },
+      {
+        "kind": "edge",
+        "name": "Unknown month",
+        "input": "XYZ",
+        "output": "",
+        "exit": 1
+      }
+    ]
+  }
+]
