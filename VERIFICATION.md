@@ -1,8 +1,8 @@
 # Verification report
 
-## Day 83 · November 23, 2026
+## Days 83–84 · November 23, 2026
 
-GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 1 compiled without warnings. All 1 published examples were attempted. 1/1 published cases with concrete expected output matched. All 14 additional checks passed.
+GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 2 compiled without warnings. All 2 published examples were attempted. 2/2 published cases with concrete expected output matched. All 17 additional checks passed.
 
 The website numbers questions in display order. The saved cases include the published inputs and outputs and the additional tests. [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json) · [New test cases](tests/days83-96.json)
 
@@ -11,6 +11,7 @@ The runner checks each exit code and compares output after normalizing CRLF and 
 | Day | Solution | Matched / comparable samples | Descriptive samples | Additional checks passed |
 | ---: | --- | ---: | ---: | ---: |
 | 83 | [Q133](Day83/Question_133.c) | 1/1 | 0 | 14/14 |
+| 84 | [Q134](Day84/Question_134.c) | 1/1 | 0 | 3/3 |
 
 ## Days 1–82 · Historical verification
 

@@ -97,5 +97,38 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 84,
+    "number": 134,
+    "statement": "Define an enum with SUCCESS, FAILURE, and TIMEOUT, and print messages accordingly.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "FAILURE",
+        "output": "Operation failed",
+        "explanation": "FAILURE corresponds to a failed operation message."
+      },
+      {
+        "kind": "edge",
+        "name": "Success",
+        "input": "SUCCESS",
+        "output": "Operation successful"
+      },
+      {
+        "kind": "edge",
+        "name": "Timeout",
+        "input": "TIMEOUT",
+        "output": "Operation timed out"
+      },
+      {
+        "kind": "edge",
+        "name": "Unknown status",
+        "input": "PENDING",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
