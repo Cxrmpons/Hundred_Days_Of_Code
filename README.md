@@ -1,6 +1,6 @@
 # 100 Days of Code in C
 
-134 solutions for Days 1–84 of the UPES challenge. Days 1–50 have two questions per day. Days 51–84 have one. Each C11 program stands alone and opens with the original numbered statement. [Challenge website](https://maitysoumik.github.io/basic-coding-with-c/) · [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json)
+135 solutions for Days 1–85 of the UPES challenge. Days 1–50 have two questions per day. Days 51–85 have one. Each C11 program stands alone and opens with the original numbered statement. [Challenge website](https://maitysoumik.github.io/basic-coding-with-c/) · [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json)
 
 This catch-up work was AI-assisted, including implementation and test preparation.
 
@@ -19,7 +19,7 @@ For the file exercises, use a scratch working directory. Programs read and write
 
 ## Verification
 
-All 2 new programs compiled without warnings with GCC 16.1.0. 2/2 published cases with concrete expected output matched. All 17 additional checks passed. [Verification report](VERIFICATION.md) · [New test cases](tests/days83-96.json)
+All 3 new programs compiled without warnings with GCC 16.1.0. 3/3 published cases with concrete expected output matched. All 18 additional checks passed. [Verification report](VERIFICATION.md) · [New test cases](tests/days83-96.json)
 
 With Python 3.9+ and GCC on the path, run the new checks from the repository root. Add `--day 83` to test just Day 83.
 
@@ -31,7 +31,7 @@ The earlier verification run covered all 132 programs through Day 82. All compil
 
 ## Historical Git simulation
 
-The hackathon simulation assigns Day 1 to August 14, 2026 and Day 82 to November 3. Days 83–84 run consecutively from November 4 through November 5 in India Standard Time (UTC+05:30). Both the author and committer timestamps follow the simulation. The new programs were implemented and tested on November 23, 2026.
+The hackathon simulation assigns Day 1 to August 14, 2026 and Day 82 to November 3. Days 83–85 run consecutively from November 4 through November 6 in India Standard Time (UTC+05:30). Both the author and committer timestamps follow the simulation. The new programs were implemented and tested on November 23, 2026.
 
 ## Day-wise progress
 
@@ -123,3 +123,4 @@ The last column counts matching published samples. Each solution link opens the 
 | 82 | [Q132](Day82/Question_132.c) | 1/1 |
 | 83 | [Q133](Day83/Question_133.c) | 1/1 |
 | 84 | [Q134](Day84/Question_134.c) | 1/1 |
+| 85 | [Q135](Day85/Question_135.c) | 1/1 |
