@@ -151,5 +151,110 @@
         "output": "A=10\nB=11\nC=12"
       }
     ]
+  },
+  {
+    "day": 86,
+    "number": 136,
+    "statement": "Use enum to represent menu choices (ADD, SUBTRACT, MULTIPLY) and perform operations using switch.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "ADD 10 20",
+        "output": "30",
+        "explanation": "The enum ADD triggers addition of 10 and 20."
+      },
+      {
+        "kind": "edge",
+        "name": "Negative difference",
+        "input": "SUBTRACT 3 8",
+        "output": "-5"
+      },
+      {
+        "kind": "edge",
+        "name": "Add signed inputs",
+        "input": "ADD -8 3",
+        "output": "-5"
+      },
+      {
+        "kind": "edge",
+        "name": "Product of negatives",
+        "input": "MULTIPLY -6 -7",
+        "output": "42"
+      },
+      {
+        "kind": "edge",
+        "name": "Negative product",
+        "input": "MULTIPLY -3 8",
+        "output": "-24"
+      },
+      {
+        "kind": "edge",
+        "name": "Zero product",
+        "input": "MULTIPLY 0 -98",
+        "output": "0"
+      },
+      {
+        "kind": "edge",
+        "name": "Minimum signed 64-bit value",
+        "input": "ADD -9223372036854775808 0",
+        "output": "-9223372036854775808"
+      },
+      {
+        "kind": "edge",
+        "name": "Maximum signed 64-bit value",
+        "input": "MULTIPLY 9223372036854775807 1",
+        "output": "9223372036854775807"
+      },
+      {
+        "kind": "edge",
+        "name": "Unknown operation",
+        "input": "DIVIDE 1 2",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Missing operand",
+        "input": "ADD 2",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Invalid operand",
+        "input": "ADD 12z 2",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Operand outside signed range",
+        "input": "ADD 9223372036854775808 0",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Addition overflow",
+        "input": "ADD 9223372036854775807 1",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Subtraction underflow",
+        "input": "SUBTRACT -9223372036854775808 1",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Product overflow",
+        "input": "MULTIPLY -9223372036854775808 -1",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
