@@ -256,5 +256,38 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 87,
+    "number": 137,
+    "statement": "Create an enum for user roles (ADMIN, USER, GUEST) and display messages based on role.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "GUEST",
+        "output": "Welcome Guest!",
+        "explanation": "Enum value determines which message is displayed."
+      },
+      {
+        "kind": "edge",
+        "name": "Admin",
+        "input": "ADMIN",
+        "output": "Welcome Admin!"
+      },
+      {
+        "kind": "edge",
+        "name": "User",
+        "input": "USER",
+        "output": "Welcome User!"
+      },
+      {
+        "kind": "edge",
+        "name": "Unknown role",
+        "input": "ROOT",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
