@@ -1,8 +1,8 @@
 # Verification report
 
-## Days 83–87 · November 23, 2026
+## Days 83–88 · November 23, 2026
 
-GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 5 compiled without warnings. All 5 published examples were attempted. 5/5 published cases with concrete expected output matched. All 35 additional checks passed.
+GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 6 compiled without warnings. All 6 published examples were attempted. 6/6 published cases with concrete expected output matched. All 36 additional checks passed.
 
 The website numbers questions in display order. The saved cases include the published inputs and outputs and the additional tests. A published input of “No input” is an empty input stream. [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json) · [New test cases](tests/days83-96.json)
 
@@ -15,6 +15,7 @@ The runner checks each exit code and compares output after normalizing CRLF and 
 | 85 | [Q135](Day85/Question_135.c) | 1/1 | 0 | 1/1 |
 | 86 | [Q136](Day86/Question_136.c) | 1/1 | 0 | 14/14 |
 | 87 | [Q137](Day87/Question_137.c) | 1/1 | 0 | 3/3 |
+| 88 | [Q138](Day88/Question_138.c) | 1/1 | 0 | 1/1 |
 
 ## Days 1–82 · Historical verification
 

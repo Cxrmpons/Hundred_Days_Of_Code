@@ -289,5 +289,26 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 88,
+    "number": 138,
+    "statement": "Print all enum names and integer values using a loop.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "No input",
+        "output": "RED=0\nYELLOW=1\nGREEN=2",
+        "explanation": "Iterating through enum values prints each constant with its assigned integer.",
+        "stdin": ""
+      },
+      {
+        "kind": "edge",
+        "name": "Output is independent of stdin",
+        "input": "unused data",
+        "output": "RED=0\nYELLOW=1\nGREEN=2"
+      }
+    ]
   }
 ]
