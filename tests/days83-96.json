@@ -310,5 +310,26 @@
         "output": "RED=0\nYELLOW=1\nGREEN=2"
       }
     ]
+  },
+  {
+    "day": 89,
+    "number": 139,
+    "statement": "Show that enums store integers by printing assigned values.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "No input",
+        "output": "SUCCESS=0, FAILURE=1, TIMEOUT=2",
+        "explanation": "Enum constants are internally stored as integer values starting from 0.",
+        "stdin": ""
+      },
+      {
+        "kind": "edge",
+        "name": "Output is independent of stdin",
+        "input": "unused data",
+        "output": "SUCCESS=0, FAILURE=1, TIMEOUT=2"
+      }
+    ]
   }
 ]
