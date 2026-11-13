@@ -331,5 +331,38 @@
         "output": "SUCCESS=0, FAILURE=1, TIMEOUT=2"
       }
     ]
+  },
+  {
+    "day": 90,
+    "number": 140,
+    "statement": "Define a struct with enum Gender and print person's gender.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "Gender=MALE",
+        "output": "Male",
+        "explanation": "The enum inside the struct allows representing gender as a named constant."
+      },
+      {
+        "kind": "edge",
+        "name": "Female",
+        "input": "Gender=FEMALE",
+        "output": "Female"
+      },
+      {
+        "kind": "edge",
+        "name": "Spacing around equals",
+        "input": "Gender = OTHER",
+        "output": "Other"
+      },
+      {
+        "kind": "edge",
+        "name": "Unknown value",
+        "input": "Gender=UNKNOWN",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
