@@ -364,5 +364,45 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 91,
+    "number": 141,
+    "statement": "Define a structure Student with name, roll_no, and marks, then read and print one student's data.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "Name: Asha\nRoll: 101\nMarks: 90",
+        "output": "Name: Asha | Roll: 101 | Marks: 90",
+        "explanation": "The program stores and displays one student's details using structure members."
+      },
+      {
+        "kind": "edge",
+        "name": "Full name and fractional marks",
+        "input": "Name: Mira Sen  \nRoll: 7\nMarks: 88.25",
+        "output": "Name: Mira Sen | Roll: 7 | Marks: 88.25"
+      },
+      {
+        "kind": "edge",
+        "name": "Zero marks",
+        "input": "Name: Noor\nRoll: 9\nMarks: 0",
+        "output": "Name: Noor | Roll: 9 | Marks: 0"
+      },
+      {
+        "kind": "edge",
+        "name": "Missing marks",
+        "input": "Name: Dev\nRoll: 1",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Invalid marks",
+        "input": "Name: Dev\nRoll: 1\nMarks: nan",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
