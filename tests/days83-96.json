@@ -404,5 +404,52 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 92,
+    "number": 142,
+    "statement": "Store details of 5 students in an array of structures and print all.",
+    "cases": [
+      {
+        "kind": "descriptive",
+        "name": "Published example 1",
+        "input": "Details of 5 students (Name, Roll, Marks)",
+        "output": "Tabular list of all 5 students with their details",
+        "explanation": "The array of structures stores multiple student records and displays them in a table."
+      },
+      {
+        "kind": "edge",
+        "name": "Published description instantiated with five student records",
+        "input": "Asha 101 90\nRavi 102 0\nMira 103 88.5\nDev 104 100\nNoor 105 74",
+        "output": "Name\tRoll\tMarks\nAsha\t101\t90\nRavi\t102\t0\nMira\t103\t88.5\nDev\t104\t100\nNoor\t105\t74"
+      },
+      {
+        "kind": "edge",
+        "name": "Five comma-separated records with spaces in names",
+        "input": "Mira Sen , 5, 9.5\nRavi Raj,4,10\nLee,3,0\nNoor,2,9.5\nAsha,1,8",
+        "output": "Name\tRoll\tMarks\nMira Sen\t5\t9.5\nRavi Raj\t4\t10\nLee\t3\t0\nNoor\t2\t9.5\nAsha\t1\t8"
+      },
+      {
+        "kind": "edge",
+        "name": "Only four records",
+        "input": "Asha 101 90\nRavi 102 0\nMira 103 88.5\nDev 104 100",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Invalid roll number",
+        "input": "Asha xx 90\nRavi 102 0\nMira 103 88.5\nDev 104 100\nNoor 105 74",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Missing roll before a fractional mark",
+        "input": "Asha 90.5\nRavi 102 0\nMira 103 88.5\nDev 104 100\nNoor 105 74",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]

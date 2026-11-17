@@ -1,8 +1,8 @@
 # Verification report
 
-## Days 83–91 · November 23, 2026
+## Days 83–92 · November 23, 2026
 
-GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 9 compiled without warnings. All 9 published examples were attempted. 9/9 published cases with concrete expected output matched. All 44 additional checks passed.
+GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 10 compiled without warnings. All 10 published examples were attempted. 9/9 published cases with concrete expected output matched. All 49 additional checks passed. Q142 supplies a description in place of records and expected table contents. A separate five-record fixture checks the table.
 
 The website numbers questions in display order. The saved cases include the published inputs and outputs and the additional tests. A published input of “No input” is an empty input stream. [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json) · [New test cases](tests/days83-96.json)
 
@@ -19,6 +19,11 @@ The runner checks each exit code and compares output after normalizing CRLF and 
 | 89 | [Q139](Day89/Question_139.c) | 1/1 | 0 | 1/1 |
 | 90 | [Q140](Day90/Question_140.c) | 1/1 | 0 | 3/3 |
 | 91 | [Q141](Day91/Question_141.c) | 1/1 | 0 | 4/4 |
+| 92 | [Q142](Day92/Question_142.c) | — | 1 | 5/5 |
+
+### Q142 · Descriptive sample
+
+The website supplies `Details of 5 students (Name, Roll, Marks)` as the input and `Tabular list of all 5 students with their details` as the output. The literal input was attempted. It contains no student data, so there is no reference table for a text comparison. A separate test supplies five distinct student records and compares the header and all five output rows. [New test cases](tests/days83-96.json)
 
 ## Days 1–82 · Historical verification
 
