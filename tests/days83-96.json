@@ -504,5 +504,45 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 94,
+    "number": 144,
+    "statement": "Write a function that accepts a structure as parameter and prints its members.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "Student: Neha 104 92",
+        "output": "Name: Neha | Roll: 104 | Marks: 92",
+        "explanation": "The structure is passed by value to a function that prints its data."
+      },
+      {
+        "kind": "edge",
+        "name": "Full name and fractional mark",
+        "input": "Student: Asha Sen 8 75.5",
+        "output": "Name: Asha Sen | Roll: 8 | Marks: 75.5"
+      },
+      {
+        "kind": "edge",
+        "name": "Zero marks",
+        "input": "Student: Ravi 12 0",
+        "output": "Name: Ravi | Roll: 12 | Marks: 0"
+      },
+      {
+        "kind": "edge",
+        "name": "Missing roll number",
+        "input": "Student: Mira 98",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Missing roll before a fractional mark",
+        "input": "Student: Mira 98.5",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
