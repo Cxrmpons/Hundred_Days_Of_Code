@@ -544,5 +544,58 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 95,
+    "number": 145,
+    "statement": "Return a structure containing top student's details from a function.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "3 students: Riya 101 89, Karan 102 96, Meena 103 92",
+        "output": "Top Student: Karan | Roll: 102 | Marks: 96",
+        "explanation": "The function returns the structure containing the highest scoring student's details."
+      },
+      {
+        "kind": "edge",
+        "name": "Single record",
+        "input": "1 student: Asha 5 0",
+        "output": "Top Student: Asha | Roll: 5 | Marks: 0"
+      },
+      {
+        "kind": "edge",
+        "name": "First record wins a tie",
+        "input": "3\nMira Sen 4 88.5\nRavi 2 88.5\nJo 3 70",
+        "output": "Top Student: Mira Sen | Roll: 4 | Marks: 88.5"
+      },
+      {
+        "kind": "edge",
+        "name": "Highest mark in last record",
+        "input": "3 students: A 1 5, B 2 4, C 3 6.25",
+        "output": "Top Student: C | Roll: 3 | Marks: 6.25"
+      },
+      {
+        "kind": "edge",
+        "name": "No records",
+        "input": "0",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "List ends early",
+        "input": "2 students: Asha 1 4",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Missing roll before a fractional mark",
+        "input": "1 student: Asha 90.5",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
