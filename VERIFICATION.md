@@ -1,8 +1,8 @@
 # Verification report
 
-## Days 83–95 · November 23, 2026
+## Days 83–96 · November 23, 2026
 
-GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 13 compiled without warnings. All 13 published examples were attempted. 12/12 published cases with concrete expected output matched. All 65 additional checks passed. Q142 supplies a description in place of records and expected table contents. A separate five-record fixture checks the table.
+GCC 16.1.0 (MSYS2 UCRT64) compiled each new program independently with `-std=c11 -Wall -Wextra -pedantic -Werror`. All 14 compiled without warnings. All 14 published examples were attempted. 13/13 published cases with concrete expected output matched. All 70 additional checks passed. Q142 supplies a description in place of records and expected table contents. A separate five-record fixture checks the table.
 
 The website numbers questions in display order. The saved cases include the published inputs and outputs and the additional tests. A published input of “No input” is an empty input stream. [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json) · [New test cases](tests/days83-96.json)
 
@@ -23,6 +23,7 @@ The runner checks each exit code and compares output after normalizing CRLF and 
 | 93 | [Q143](Day93/Question_143.c) | 1/1 | 0 | 6/6 |
 | 94 | [Q144](Day94/Question_144.c) | 1/1 | 0 | 4/4 |
 | 95 | [Q145](Day95/Question_145.c) | 1/1 | 0 | 6/6 |
+| 96 | [Q146](Day96/Question_146.c) | 1/1 | 0 | 5/5 |
 
 ### Q142 · Descriptive sample
 

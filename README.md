@@ -1,6 +1,6 @@
 # 100 Days of Code in C
 
-145 solutions for Days 1–95 of the UPES challenge. Days 1–50 have two questions per day. Days 51–95 have one. Each C11 program stands alone and opens with the original numbered statement. [Challenge website](https://maitysoumik.github.io/basic-coding-with-c/) · [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json)
+146 solutions for Days 1–96 of the UPES challenge. Days 1–50 have two questions per day. Days 51–96 have one. Each C11 program stands alone and opens with the original numbered statement. [Challenge website](https://maitysoumik.github.io/basic-coding-with-c/) · [Published question bank](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/questions2.json)
 
 This catch-up work was AI-assisted, including implementation and test preparation.
 
@@ -21,7 +21,7 @@ For Q142, enter five students, one per line. Use a single-word name followed by 
 
 ## Verification
 
-All 13 new programs compiled without warnings with GCC 16.1.0. 12/12 published cases with concrete expected output matched. All 65 additional checks passed. Q142 supplies a description in place of records and expected table contents. A separate five-record fixture checks the table. [Verification report](VERIFICATION.md) · [New test cases](tests/days83-96.json)
+All 14 new programs compiled without warnings with GCC 16.1.0. 13/13 published cases with concrete expected output matched. All 70 additional checks passed. Q142 supplies a description in place of records and expected table contents. A separate five-record fixture checks the table. [Verification report](VERIFICATION.md) · [New test cases](tests/days83-96.json)
 
 With Python 3.9+ and GCC on the path, run the new checks from the repository root. Add `--day 83` to test just Day 83.
 
@@ -33,7 +33,9 @@ The earlier verification run covered all 132 programs through Day 82. All compil
 
 ## Historical Git simulation
 
-The hackathon simulation assigns Day 1 to August 14, 2026 and Day 82 to November 3. Days 83–95 run consecutively from November 4 through November 16 in India Standard Time (UTC+05:30). Both the author and committer timestamps follow the simulation. The new programs were implemented and tested on November 23, 2026.
+The hackathon simulation assigns Day 1 to August 14, 2026 and Day 82 to November 3. Days 83–96 run consecutively from November 4 through November 17 in India Standard Time (UTC+05:30). Both the author and committer timestamps follow the simulation. The new programs were implemented and tested on November 23, 2026.
+
+Day 96 carries a simulated date of November 17, six days before the challenge site displayed Day 96 on November 23. The site caps elapsed days at 100 before subtracting four mid-semester pause days. [Challenge calendar code](https://github.com/maitysoumik/basic-coding-with-c/blob/3dd9a87323f5a8de608b1bbe2137c8a804db871c/script2.js)
 
 ## Day-wise progress
 
@@ -136,5 +138,6 @@ The last column counts matching published samples. Each solution link opens the 
 | 93 | [Q143](Day93/Question_143.c) | 1/1 |
 | 94 | [Q144](Day94/Question_144.c) | 1/1 |
 | 95 | [Q145](Day95/Question_145.c) | 1/1 |
+| 96 | [Q146](Day96/Question_146.c) | 1/1 |
 
 ¹ Q142 gives an example in words. The five-record test and its expected table appear in the verification fixtures.

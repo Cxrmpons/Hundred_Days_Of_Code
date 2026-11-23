@@ -597,5 +597,52 @@
         "exit": 1
       }
     ]
+  },
+  {
+    "day": 96,
+    "number": 146,
+    "statement": "Create Employee structure with nested Date structure for joining date and print details.",
+    "cases": [
+      {
+        "kind": "sample",
+        "name": "Published example 1",
+        "input": "Employee: Raj | ID: 11 | Joining Date: 12 05 2020",
+        "output": "Name: Raj | ID: 11 | Joining Date: 12/05/2020",
+        "explanation": "Nested structure Date is used inside Employee structure to represent joining date."
+      },
+      {
+        "kind": "edge",
+        "name": "Single digit fields",
+        "input": "Employee: Asha Sen | ID: 1 | Joining Date: 2 3 2021",
+        "output": "Name: Asha Sen | ID: 1 | Joining Date: 02/03/2021"
+      },
+      {
+        "kind": "edge",
+        "name": "Leap century",
+        "input": "Employee: Jo | ID: 2 | Joining Date: 29 2 2000",
+        "output": "Name: Jo | ID: 2 | Joining Date: 29/02/2000"
+      },
+      {
+        "kind": "edge",
+        "name": "Non-leap century",
+        "input": "Employee: Jo | ID: 2 | Joining Date: 29 2 1900",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Invalid month",
+        "input": "Employee: Jo | ID: 2 | Joining Date: 1 13 2022",
+        "output": "",
+        "exit": 1
+      },
+      {
+        "kind": "edge",
+        "name": "Day out of range",
+        "input": "Employee: Jo | ID: 2 | Joining Date: 31 4 2024",
+        "output": "",
+        "exit": 1
+      }
+    ]
   }
 ]
