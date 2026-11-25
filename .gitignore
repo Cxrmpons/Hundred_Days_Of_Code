@@ -1,7 +1,0 @@
-# Local builds and verification artifacts
-*.exe
-*.o
-*.out
-/build/
-/roots
-__pycache__/
